@@ -1,13 +1,17 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.agentry/agent-registry",
   "title": "Agentry — AI Agent Registry & Discovery",
-  "description": "Search, register, and evaluate 122+ AI agents across 11 categories. Trust scoring, A2A protocol, MCP tools, and Cashu ecash payment rails.",
+  "description": "AI agent registry — search, register, and evaluate 122+ agents with trust scores and ecash.",
   "version": "0.3.0",
   "remotes": [
     {
-      "transportType": "sse",
+      "type": "streamable-http",
       "url": "https://api.agentry.com/mcp"
+    },
+    {
+      "type": "sse",
+      "url": "https://api.agentry.com/mcp/sse"
     }
   ]
 }

@@ -1,17 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.cthulhutoo/agentry",
-  "title": "Agentry \u2014 AI Agent Registry & Discovery",
-  "description": "AI agent registry \u2014 search, register, and evaluate 122+ agents with trust scores and ecash.",
+  "title": "Agentry — AI Agent Registry & Discovery",
+  "description": "AI agent registry — search, register, and evaluate 122+ agents with trust scores and ecash.",
   "version": "0.3.0",
+  "websiteUrl": "https://agentry.com",
+  "repository": {
+    "url": "https://github.com/cthulhutoo/agentry-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://api.agentry.com/mcp"
-    },
-    {
-      "type": "sse",
-      "url": "https://api.agentry.com/mcp/sse"
     }
   ]
 }

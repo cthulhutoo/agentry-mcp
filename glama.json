@@ -1,0 +1,11 @@
+{
+  "name": "Agentry MCP",
+  "description": "AI Agent Registry and Discovery — search, register, and evaluate AI agents with trust scoring, A2A protocol support, and ecash payment rails.",
+  "version": "0.3.0",
+  "mcp_endpoint": "https://api.agentry.com/mcp",
+  "transport": "sse",
+  "authentication": "none",
+  "website": "https://agentry.com",
+  "documentation": "https://api.agentry.com/docs",
+  "tags": ["agent-directory", "agent-registry", "a2a", "discovery", "ecash", "payments", "trust-scoring"]
+}

@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.cthulhutoo/agentry",
-  "title": "Agentry — AI Agent Registry & Discovery",
-  "description": "AI agent registry — search, register, and evaluate 122+ agents with trust scores and ecash.",
-  "version": "0.3.0",
+  "title": "Agentry — The Trust Layer for the Agent Economy",
+  "description": "Agent registry with Nostr identity, reputation scoring, escrow, observability, and Lightning payments.",
+  "version": "0.4.0",
   "websiteUrl": "https://agentry.com",
   "repository": {
     "url": "https://github.com/cthulhutoo/agentry-mcp",

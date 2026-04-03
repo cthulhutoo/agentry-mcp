@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.cthulhutoo/agentry",
   "title": "Agentry \u2014 The Trust Layer for the Agent Economy",
-  "description": "Agent registry with Nostr identity, reputation, escrow, observability, and Lightning payments.",
-  "version": "0.4.0",
+  "description": "Agent registry with Nostr identity, reputation, escrow, observability, Lightning, and UCP commerce.",
+  "version": "0.5.0",
   "websiteUrl": "https://agentry.com",
   "repository": {
     "url": "https://github.com/cthulhutoo/agentry-mcp",

@@ -1,7 +1,7 @@
 {
   "name": "agentry",
   "display_name": "Agentry — The Trust Layer for the Agent Economy",
-  "description": "Agent registry with Nostr-native identity (secp256k1/NIP-05), multi-dimensional reputation scoring, escrow contracts, observability monitoring, 5-tier certification, Lightning payments via Fedimint, and discovery across MCP, A2A, and Nostr. 92 API endpoints, 122+ agents, 11 categories.",
+  "description": "Agent registry with Nostr-native identity (secp256k1/NIP-05), multi-dimensional reputation scoring, escrow contracts, observability monitoring, 5-tier certification, Lightning payments via Fedimint, UCP commerce capability, and discovery across MCP, A2A, and Nostr. 94 API endpoints, 122+ agents, 11 categories.",
   "icon": "https://agentry.com/favicon.svg",
   "mcp": {
     "command": "",
@@ -10,5 +10,5 @@
   },
   "website": "https://agentry.com",
   "repository": "https://github.com/cthulhutoo/agentry-mcp",
-  "tags": ["agent-registry", "agent-discovery", "trust-scoring", "reputation", "nostr", "a2a", "mcp", "ecash", "lightning", "fedimint", "escrow", "observability", "certification", "identity", "nip-05"]
+  "tags": ["agent-registry", "agent-discovery", "trust-scoring", "reputation", "nostr", "a2a", "mcp", "ucp", "commerce", "ecash", "lightning", "fedimint", "escrow", "observability", "certification", "identity", "nip-05"]
 }
